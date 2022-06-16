@@ -8,6 +8,22 @@ namespace Aula_05_Exercicio
 {
     internal class Circulo
     {
-        //area * 3.14 * (raio**2)
+        public virtual double Calculo()
+        {
+            //area * 3.14 * (raio**2)
+            const double pi = 3.14;
+
+            Console.WriteLine("Digite o raio: ");
+            double y = double.Parse(Console.ReadLine());
+
+            var area = (pi * (y * y));
+
+            Console.WriteLine(area);
+
+            return area;
+            
+        }
+
+        
     }
 }

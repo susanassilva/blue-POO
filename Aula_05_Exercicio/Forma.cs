@@ -11,12 +11,7 @@ namespace Aula_05_Exercicio
         //método de cálculo de dimensão
         public double Calculo(double x, double y)
         {
-            //Console.WriteLine("Digite: ");
-            //x = double.Parse(Console.ReadLine());
-
-            //Console.WriteLine("Digite o 2º: ");
-            //y = double.Parse(Console.ReadLine());
-
+            
             return Calculo(x, y);
         }
 

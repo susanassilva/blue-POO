@@ -12,6 +12,13 @@ namespace Aula_05_Exercicio
         {
             var Quadrado1 = new Quadrado();
             Quadrado1.Calculo();
+
+            var Triangulo1 = new Triangulo();
+            Triangulo1.Calculo();
+
+            var Circulo1 = new Circulo();
+            Circulo1.Calculo();
+
         }
     }
 }

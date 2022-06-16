@@ -6,8 +6,22 @@ using System.Threading.Tasks;
 
 namespace Aula_05_Exercicio
 {
-    internal class Triangulo
+    internal class Triangulo : Forma
     {
-        //area = (base*altura) / 2;
+        public virtual double Calculo()
+        {
+            Console.WriteLine("Digite a base: ");
+            double x = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite a altura: ");
+            double y = double.Parse(Console.ReadLine());
+
+            var area = (x * y)/2;
+
+            Console.WriteLine(area);
+            
+            return area;
+            //area = (base*altura) / 2;
+        }
     }
 }
